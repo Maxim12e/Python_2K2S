@@ -9,8 +9,6 @@ while True:
 
 book = input("book: ")
 
-
-
 Book_dict = {}
 
 Book_dict = {
@@ -20,9 +18,7 @@ Book_dict = {
 
 Book_dict[book] = author
 
-#for values in Book_dict.values():
-#   print(values)
+for values in Book_dict.values():
+    print(values)
 
-
-print(Book_dict)
 
